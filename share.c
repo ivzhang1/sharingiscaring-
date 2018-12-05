@@ -30,7 +30,7 @@ int main(){
   if(!strcmp(input,"y")){
     printf("Enter you string: ");
     scanf("%s", input);
-    printf("%s\n", input);
+    //printf("%s\n", input);
     strncpy(data, input, 200);
   }
 
